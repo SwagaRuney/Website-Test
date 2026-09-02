@@ -1,0 +1,41 @@
+        @font-face {
+            font-family: PixelOperatorMono;
+            src: url(PixelOperatorMonoHB8.ttf);
+        }
+        canvas {
+            image-rendering: pixelated;
+            image-rendering: crisp-edges;
+}
+        marquee img {
+            border: none;
+            padding: 0;
+            margin: 0;
+    }
+        marquee p {
+            margin: 0;
+            padding: 0;
+    }
+        body {
+            font-family: 'PixelOperatorMono';font-size: 22px;
+            background-image: url('https://64.media.tumblr.com/b3a759d39dcd3fccffe7e28582e6e51c/ed759fd2908057e1-1b/s2048x3072_c6250,35208,92500,100000/05b3a0bd71a902f2ee77d4edc605fe786981984c.gif');
+            background-size: cover;
+            background-color: lightblue;
+    }
+        h1 {
+            color: aliceblue;
+    }
+        h2 {
+            color: aliceblue;
+    }
+        h3 {
+            color: aliceblue;
+    }
+        h4 {
+            color: aliceblue;
+    }
+        p {
+            color: aliceblue;
+    }
+        ul {
+            color: aliceblue;
+    }
