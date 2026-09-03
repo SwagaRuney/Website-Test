@@ -1,0 +1,62 @@
+        @font-face {
+            font-family: PixelOperatorMono;
+            src: url("PixelOperatorMonoHB8.ttf");
+        }
+        canvas {
+            image-rendering: pixelated;
+            image-rendering: crisp-edges;
+}
+        marquee img {
+            /*background-color: #e6f2ff;
+            border: 14px solid #b2d1f1;
+            */padding: 0;
+            margin: 0;
+    }
+        marquee p {
+            margin: 0;
+            padding: 0;
+    }
+        summary {
+            color:aliceblue;
+            -webkit-text-stroke: 1px #000;
+        }
+        body {
+            font-family: 'PixelOperatorMono';font-size: 22px;
+            background-image: url('https://images.steamusercontent.com/ugc/13569770212812975542/DDDDBB4561F8D26B4F5146FB69ED6F4712C7BE5C/?imw=116&imh=65&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true');
+            background-size: cover;
+            background-color: lightblue;
+    }
+        h1 {
+            color: aliceblue;
+            -webkit-text-stroke: 1px #000;
+    }
+        h2 {
+            color: aliceblue;
+            -webkit-text-stroke: 1px #000;
+    }
+        h3 {
+            color: aliceblue;
+            -webkit-text-stroke: 1px #000;
+    }
+        h4 {
+            color: aliceblue;
+            -webkit-text-stroke: 1px #000;
+    }
+        p {
+            color: aliceblue;
+            -webkit-text-stroke: 1px #000;
+    }
+        ul {
+            color: aliceblue;
+            -webkit-text-stroke: 1px #000;
+    }   .rubik-broken-fax-regular {
+            font-family: "Rubik Broken Fax", system-ui;
+            font-weight: 400;
+            font-style: normal;
+    }
+        .fontdiner-swanky-regular {
+            font-family: "Fontdiner Swanky", serif;
+            font-weight: 400;
+            font-style: normal;
+    }
+
