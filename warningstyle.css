@@ -63,17 +63,15 @@
             display: inline-block;
             -webkit-text-stroke: 1px #000;
     }
-        .rubik-broken-fax-regular {
-            font-family: "Rubik Broken Fax", system-ui;
-            font-weight: 400;
-            font-style: normal;
-    }
         form {
-            font-family: 'PixelOperatorMono';font-size: 28px;
+            font-family: 'PixelOperatorMono';
+            font-size: 28px;
             color: aliceblue;
-    }
+        }
+
         input {
-            font-family: 'PixelOperatorMono';font-size: 28px;
+            font-family: 'PixelOperatorMono';
+            font-size: 28px;
             color: rgb(0, 0, 0);
-    }
+        }
 
