@@ -25,6 +25,12 @@
             background-image: url('https://images.steamusercontent.com/ugc/13569770212812975542/DDDDBB4561F8D26B4F5146FB69ED6F4712C7BE5C/?imw=116&imh=65&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true');
             background-size: cover;
             background-color: lightblue;
+
+            margin: 0; /* Remove default margin */
+            border: 14px solid #241e50; /* Thickness, style, color */
+            padding: 0px; /* Space inside the border */
+            min-height: 100vh; /* Ensure full height */
+            box-sizing: border-box; /* Include border in total size */
     }
         h1 {
             color: aliceblue;
@@ -47,23 +53,24 @@
             -webkit-text-stroke: 1px #000;
     }
         ul {
+            margin-bottom: 0;
+            text-align: center;
             color: aliceblue;
             -webkit-text-stroke: 1px #000;
-    }   .rubik-broken-fax-regular {
-            font-family: "Rubik Broken Fax", system-ui;
-            font-weight: 400;
-            font-style: normal;
-    }
-        .fontdiner-swanky-regular {
-            font-family: "Fontdiner Swanky", serif;
-            font-weight: 400;
-            font-style: normal;
+    }   
+        li {
+            margin-bottom: 0;
+            text-align: center;
+            color: aliceblue;
+            -webkit-text-stroke: 1px #000;
     }
         footer {
             text-align: center;
             padding: 3px;
-            background-color: DarkSalmon;
+            --background-color: DarkSalmon;
             color: white;
     }
-    
-
+        a {
+            color: aliceblue;
+            -webkit-text-stroke: 1px #000;
+    }
