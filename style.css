@@ -1,11 +1,11 @@
         @font-face {
             font-family: PixelOperatorMono;
             src: url("PixelOperatorMonoHB8.ttf");
-        }
+    }
         canvas {
             image-rendering: pixelated;
             image-rendering: crisp-edges;
-}
+    }
         marquee img {
             /*background-color: #e6f2ff;
             border: 14px solid #b2d1f1;
@@ -59,4 +59,11 @@
             font-weight: 400;
             font-style: normal;
     }
+        footer {
+            text-align: center;
+            padding: 3px;
+            background-color: DarkSalmon;
+            color: white;
+    }
+    
 
