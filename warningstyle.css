@@ -1,11 +1,11 @@
         @font-face {
             font-family: PixelOperatorMono;
             src: url("PixelOperatorMonoHB8.ttf");
-        }
+    }
         canvas {
             image-rendering: pixelated;
             image-rendering: crisp-edges;
-}
+    }
         marquee img {
             /*background-color: #e6f2ff;
             border: 14px solid #b2d1f1;
@@ -19,12 +19,13 @@
     }
         summary {
             color:aliceblue;
-        }
+    }
         body {
             font-family: 'PixelOperatorMono';
             font-size: 28px;
             background-image: url('https://i.redd.it/lh1ot62c9off1.gif');
             background-size: cover;
+            background-repeat: no-repeat;
             background-color: lightblue;
             margin: 0;
 			--display: flex;
@@ -32,6 +33,7 @@
 			align-items: center;
 			min-height: 100vh;
 			text-align: center;
+            color: black;
     }
 
         h1 {
