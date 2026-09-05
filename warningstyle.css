@@ -21,12 +21,13 @@
             color:aliceblue;
         }
         body {
-            font-family: 'PixelOperatorMono';font-size: 28px;
+            font-family: 'PixelOperatorMono';
+            font-size: 28px;
             background-image: url('https://i.redd.it/lh1ot62c9off1.gif');
             background-size: cover;
             background-color: lightblue;
             margin: 0;
-			display: flex;
+			--display: flex;
 			justify-content: center;
 			align-items: center;
 			min-height: 100vh;
@@ -67,11 +68,10 @@
             font-family: 'PixelOperatorMono';
             font-size: 28px;
             color: aliceblue;
-        }
-
+    }
         input {
             font-family: 'PixelOperatorMono';
             font-size: 28px;
             color: rgb(0, 0, 0);
-        }
+    }
 
