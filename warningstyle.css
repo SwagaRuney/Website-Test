@@ -24,7 +24,7 @@
             font-family: 'PixelOperatorMono';
             font-size: 28px;
             background-image: url('https://i.redd.it/lh1ot62c9off1.gif');
-            --background-size: cover;
+            background-size: cover;
             background-color: lightblue;
             margin: 0;
 			--display: flex;
@@ -73,11 +73,17 @@
             -webkit-text-stroke: 1px #000;
     }
         form {
+            justify-content: center;
+			align-items: center;
+            display: inline-block;
             font-family: 'PixelOperatorMono';
             font-size: 28px;
             color: aliceblue;
     }
         input {
+            justify-content: center;
+			align-items: center;
+            display: inline-block;
             font-family: 'PixelOperatorMono';
             font-size: 28px;
             color: rgb(0, 0, 0);
