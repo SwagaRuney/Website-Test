@@ -24,7 +24,7 @@
             font-family: 'PixelOperatorMono';
             font-size: 28px;
             background-image: url('https://i.redd.it/lh1ot62c9off1.gif');
-            background-size: cover;
+            --background-size: cover;
             background-color: lightblue;
             margin: 0;
 			--display: flex;
